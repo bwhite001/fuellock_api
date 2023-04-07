@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fuellock_cli"
+version = "0.1.0"
+description = ""
+authors = ["Brandon White <bwhite@infoxchange.org>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+bs4 = "^0.0.1"
+requests = "^2.28.2"
+configparser = "^5.3.0"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
